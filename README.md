@@ -90,7 +90,7 @@ ORDER BY
     salary_year_avg DESC 
 LIMIT 10
 ```
-![Top Paying Roles](assets\query1.png)
+![Top Paying Roles](assets/query1.png)
 *Visualization of Top-10 Salaries of Remote Data Scientist Jobs; ChatGPT generated this graph from my query results*
 ### 2️⃣ Skills Required for Top-Paying Roles
 
@@ -166,7 +166,7 @@ LEFT JOIN skills_job_dim ON top_paying_jobs.job_id = skills_job_dim.job_id
 LEFT JOIN skills_dim ON skills_job_dim.skill_id = skills_dim.skill_id
 LIMIT 10
 ```
-![Skills required for Top-Paying Roles](assets\query2.png)
+![Skills required for Top-Paying Roles](assets/query2.png)
 *Visualization of Top-Skills for Top-Paying roles; ChatGPT generated this graph from my query results*
 ### 3️⃣ Most In-Demand Skills for Data Scientists
 
@@ -196,7 +196,7 @@ ORDER BY
     COUNT(skills_dim.skills) DESC
 LIMIT 10
 ```
-![Most In-Demand Skills for Data Scientists](assets\query3.png)
+![Most In-Demand Skills for Data Scientists](assets/query3.png)
 *Visualization of Most In-Demand Skills for Data Scientists; ChatGPT generated this graph from my query results*
 ### 4️⃣ Top-Paying Skills
 
@@ -227,7 +227,7 @@ ORDER BY
     salary_per_skill DESC
 LIMIT 10
 ```
-![Top-Paying Skills](assets\query4.png)
+![Top-Paying Skills](assets/query4.png)
 *Visualization of Top-Paying Skills; ChatGPT generated this graph from my query results*
 ### 5️⃣ Most Optimal Skills (High Demand + High Pay)
 
@@ -289,7 +289,7 @@ ORDER BY
     demand_count DESC
 LIMIT 25
 ```
-![Most Optimal Skills](assets\query5.png)
+![Most Optimal Skills](assets/query5.png)
 *Visualization of Most Optimal Skills; ChatGPT generated this graph from my query results*
 ## 🎯 What I Learned
 
